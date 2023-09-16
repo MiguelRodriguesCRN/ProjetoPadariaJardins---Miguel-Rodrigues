@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_header{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 2px solid black; */
+}
+
+.left_header h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(241, 173, 84);
+    padding: 0%;
+    margin: 0%;
+}
+
+.rigth_header{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 2px solid orchid; */
+    text-align: center;
+}
