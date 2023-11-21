@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(5, 5, 63);
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1{
+    color: rgb(12, 119, 35);
+    font-size: 30px;
+}
+
+.menu{
+    flex: 80%;
+    text-align: right;
+    padding: 20px;
+    margin-right: 10%;
+
+}
+
+.menu a{
+    color: rgb(54, 36, 11);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.menu a:hover{
+    color: rgb(24, 160, 20);
+    border-top: 4px solid rgb(10, 8, 90);
+
+}
