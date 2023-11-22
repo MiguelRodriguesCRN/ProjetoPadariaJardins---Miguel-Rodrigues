@@ -20,6 +20,17 @@
 
 }
 
+.imagem_enunciado {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 40%;
+    text-align: right;
+    align-items: right;
+    float: right;
+
+}
+
 #melhor {
 
 margin-left: 5%;
