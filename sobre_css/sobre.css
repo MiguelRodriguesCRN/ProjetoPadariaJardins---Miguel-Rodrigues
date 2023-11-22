@@ -1,0 +1,35 @@
+.enunciado {
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+.enunciado h2 {
+   
+    color: rgb(241, 173, 84);
+
+}
+
+#melhor {
+
+margin-left: 5%;
+
+}
+
+.historia {
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+.historia h3 {
+
+    color: rgb(241, 173, 84);
+    margin-left: 5%;
+    letter-spacing: 3px;
+
+}
