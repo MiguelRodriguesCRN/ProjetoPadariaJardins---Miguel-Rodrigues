@@ -20,6 +20,16 @@
 
 }
 
+.imagem_enunciado {
+
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    flex: 40%;
+    text-align: center;
+
+}
+
 #melhor {
 
 margin-left: 5%;
