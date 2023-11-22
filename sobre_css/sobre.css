@@ -22,11 +22,12 @@
 
 .imagem_enunciado {
 
-    width: 30%;
-    height: 30%;
     margin-left: 10%;
+    margin-right: 10%;
     flex: 40%;
-    text-align: center;
+    text-align: right;
+    align-items: right;
+    float: right;
 
 }
 
