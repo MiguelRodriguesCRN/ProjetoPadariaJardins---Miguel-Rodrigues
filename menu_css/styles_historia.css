@@ -1,0 +1,30 @@
+.historia{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text_historia{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 2px solid black; */
+    text-align: justify;
+}
+
+.titulo_historia h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(241, 173, 84);
+    padding: 0%;
+    margin: 0%;
+}
+
+.titulo_historia {
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 2px solid orchid; */
+    text-align: center;
+    padding: 20px;
+}

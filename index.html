@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="menu_css/styles.css">
     <link rel="stylesheet" href="menu_css/styles_nav.css">
     <link rel="stylesheet" href="menu_css/styles_header.css">
+    <link rel="stylesheet" href="menu_css/styles_mapa.css">
+    <link rel="stylesheet" href="menu_css/styles_historia.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +22,7 @@
             <a href="index.html">Home</a>
             <a href="index_sobre.html">Sobre nós</a>
             <a href="index_produtos.html">Produtos</a>
-            <a href="#">Fale Conosco</a>
+            <a href="index_contato.html">Fale Conosco</a>
             <a href="index_portifolios.html">Devs | Portifolios</a>
         </div>
     </nav>
@@ -29,60 +32,55 @@
             <div class="left_header">
                 <h2 style="letter-spacing: 13px;">voce achou a melhor</h2>
                 <h2 style="font-size: 50px;">Padaria do Bessa</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, doloribus, molestias incidunt pariatur tempore aut deleniti est officiis ducimus veritatis quam quo quia quibusdam, magnam repellendus nostrum facere! Recusandae, earum.</p>
-                <a href="#"><button class="contact_header">Fale Conosco</button></a>
+                <p style="text-align: justify;">Bem-vindo à Padaria Jardins, onde cada pedaço conta uma história de frescor e sabor. De pães
+                    artesanais a bolos irresistíveis, nossa paixão pela qualidade é evidente a cada mordida. Explore o
+                    prazer genuíno dos sabores feitos com carinho. Sinta-se em casa na adaria Jardins - onde a tradição
+                    se encontra com o deleite moderno. </p>
+                <a href="index_contato.html"><button class="contact_header">Fale Conosco!</button></a>
             </div>
             <div class="rigth_header">
                 <img style="max-width: 100%;" src="imgs/7334-removebg-preview.png" alt="">
             </div>
         </div>
+
+
+        <div class="historia">
+            <div class="text_historia">
+                <p>Em tempos desafiadores, a Padaria Jardins enfrentou bravamente as ondas turbulentas da pandemia. Em meio a incertezas, nossa equipe uniu forças para preservar o calor acolhedor da tradição. Superamos desafios, adaptamos receitas e reinventamos a forma como servimos nossos clientes. Cada pão que assamos tornou-se uma expressão de resiliência, cada doce, uma doce vitória sobre a adversidade. Agora, mais fortes do que nunca, continuamos a ser a sua padaria de confiança, onde a esperança sempre cresce, assim como o aroma irresistível de nossas delícias recém-assadas. Obrigado por fazer parte desta história de superação na Padaria Jardins.</p>
+
+            </div>
+            <div class="titulo_historia">
+                <h2 style="letter-spacing: 4px;">Conheça um pouco da nossa historia!</h2>
+                <a href="index_sobre.html"><button class="contact_header">Saiba Mais!</button></a>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="mapa">
+            <div class="esquerda_mapa">
+                <h2 style="font-size: 30px;">Venham Nos Conhecer!</h2>
+            </div>
+
+            <div class="direita_mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5599.632874487747!2d-34.85271914910013!3d-7.06339743353033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acddffbda14af1%3A0xc7e975455971a06!2spadaria%20jardins!5e0!3m2!1spt-BR!2sbr!4v1700713250804!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </header>
-
-    <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
-
 </body>
 
 </html>

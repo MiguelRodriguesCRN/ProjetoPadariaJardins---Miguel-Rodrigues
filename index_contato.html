@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pg contatos</title>
+    <link rel="stylesheet" href="contato_css/styles_form.css">
+    <link rel="stylesheet" href="menu_css/styles.css">
+    <link rel="stylesheet" href="menu_css/styles_nav.css">
+    <link rel="stylesheet" href="menu_css/styles_header.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Padaria Jardins</h1>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="index_sobre.html">Sobre nós</a>
+            <a href="index_produtos.html">Produtos</a>
+            <a href="index_contato.html">Fale Conosco</a>
+            <a href="index_portifolios.html">Devs | Portifolios</a>
+        </div>
+    </nav>
+
+    <div class="conteudo">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="formulario">
+            <form action="#">
+                <div class="form-titulo">
+                    <div class="title">
+                        <h1>Fale Conosco</h1>
+                    </div>
+                </div>
+
+                <div class="perguntas">
+                    <div class="caixinhas">
+                        <label for="primeiro_nome">Primeiro Nome</label>
+                        <input id="primeiro_nome" type="text" name="primeiro_nome" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="caixinhas">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="caixinhas">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="caixinhas">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="caixinhas">
+                        <label for="produto">Produto que deseja:</label>
+                        <input id="produto" type="text" name="produto" placeholder="Fale o Produto que deseja" required>
+                    </div>
+
+                </div>
+
+                <div class="recebimento">
+                    <div class="gender-title">
+                        <h6>Metodo de recebimento:</h6>
+                    </div>
+
+                    <div class="entrega-group">
+                        <div class="tipo-entrega">
+                            <input id="entrega" type="radio" name="gender">
+                            <label for="entrega">Entrega</label>
+                        </div>
+
+                        <div class="tipo-entrega">
+                            <input id="retirada" type="radio" name="gender">
+                            <label for="retirada">Retirada</label>
+                        </div>
+
+                        <div class="tipo-entrega">
+                            <input id="encomenda" type="radio" name="gender">
+                            <label for="encomenda">Encomenda</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Enviar Mensagem</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

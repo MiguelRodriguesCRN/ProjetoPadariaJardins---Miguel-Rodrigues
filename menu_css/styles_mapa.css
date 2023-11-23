@@ -1,0 +1,26 @@
+.mapa{
+
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+
+
+.esquerda_mapa{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 2px solid black; */
+}
+
+.esquerda_mapa h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(241, 173, 84);
+    padding: 0%;
+    margin: 0%;
+}
+
+

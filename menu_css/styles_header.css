@@ -3,6 +3,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    border-bottom: 4px solid rgb(5, 5, 63);
 }
 
 .left_header{
@@ -28,6 +29,7 @@
 
 .contact_header {
 
+    margin-top: 20px;
     background-color: rgb(12, 119, 35);
     border: none;
     color: #fff;
@@ -36,18 +38,16 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-    transition: background-color 0.20s ease;
-    shape-outside: 2px solid;
-    box-shadow: red;
+    transition: background-color 1s ease;
+
 
 }
 
 .contact_header:hover{
 
-    transform: scale(1.05);
+    transform: scale(1.10);
     transition: transform .2s;
 
 
