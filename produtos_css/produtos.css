@@ -76,12 +76,13 @@
     background-color: #2192ff;
     height: 30px;
     border: none;
-    padding: 4px;
+    padding: 10px;
     width: 80%;
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 4px;
+    margin-right: 20px;
 
 }
 
