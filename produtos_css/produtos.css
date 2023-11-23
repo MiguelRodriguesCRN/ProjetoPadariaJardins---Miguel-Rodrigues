@@ -4,19 +4,14 @@
 }
 
 .separador {
-
     border-bottom: 4px solid rgb(5, 5, 63);
-
 }
 
-.titulo_3 {
-
-    text-align: center;
+.titulo_2 {
+    text-align: left;
     color: rgb(241, 173, 84);
     letter-spacing: 3px;
-
 }
-
 .card{
     background-color: #fff;
     width: 180px;
