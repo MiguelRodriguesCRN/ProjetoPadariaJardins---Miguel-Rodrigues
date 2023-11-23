@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display:ital,wght@1,500&display=swap');
+*{
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin:0;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(247, 241, 225);
+    height: 100vh;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+    
