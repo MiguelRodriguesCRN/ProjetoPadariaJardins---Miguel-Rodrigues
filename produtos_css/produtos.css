@@ -24,6 +24,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding: 60px;
+    margin-left: 150px;
 
 }
 
