@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.separador {
+
+    border-bottom: 4px solid rgb(5, 5, 63);
+
+}
+
 .card{
     background-color: #fff;
     width: 180px;
