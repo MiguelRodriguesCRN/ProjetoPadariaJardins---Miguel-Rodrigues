@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+.titulo {
+
+    text-align: center;
+    color: rgb(241, 173, 84);
+
+}
+
 .container{
     position: relative;
 }
